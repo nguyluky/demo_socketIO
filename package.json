@@ -1,0 +1,20 @@
+{
+  "name": "socketio-chat-app",
+  "version": "1.0.0",
+  "description": "Socket.IO Chat Application - Global Chat, Group Chat, and Simple Web UI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["socketio", "express", "chat", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
